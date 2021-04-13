@@ -1,11 +1,10 @@
-
 import java.util.Scanner;
 
 public class SimpleBot {
     final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        greet("Sam", "2021"); 
+        greet("Sam", "2021");
         remindName();
         guessAge();
         count();
@@ -45,13 +44,18 @@ public class SimpleBot {
 
     static void test() {
         System.out.println("Let's test your programming knowledge.");
+        System.out.println("Let's test your programming knowledge.");
+        System.out.println("Why do we use methods?");
+        System.out.println("1. To repeat a statement multiple times.");
+        System.out.println("2. To decompose a program into several small subroutines.");
+        System.out.println("3. To determine the execution time of a program.");
+        System.out.println("4. To interrupt the execution of a program?");
         int ans;
         //repeatedly checks answer until correct ans is given
-        do{ 
+        do{
             ans = scanner.nextInt();
             if(ans == 2) {
-                System.out.println("Congratulations, have a nice day!");
-                break; 
+                break;
             }
             else System.out.println("Please try again.");
          }
