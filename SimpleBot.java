@@ -38,7 +38,7 @@ public class SimpleBot {
         System.out.println("Now I will prove to you that I can count to any number you want.");
         System.out.print("Enter number of choice : ");
         int num = scanner.nextInt();
-        for (int i = 0; i <= num; i++) {
+        for (int i = 1; i <= num; i++) {
             System.out.printf("%d!\n", i);
         }
     }
@@ -53,6 +53,7 @@ public class SimpleBot {
         int ans;
         //repeatedly checks answer until correct ans is given
         do{
+            System.out.println("Answer : ");
             ans = scanner.nextInt();
             if(ans == 2) {
                 System.out.println("That's correct!");
