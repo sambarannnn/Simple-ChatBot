@@ -55,6 +55,7 @@ public class SimpleBot {
         do{
             ans = scanner.nextInt();
             if(ans == 2) {
+                System.out.println("That's correct!");
                 break;
             }
             else System.out.println("Please try again.");
