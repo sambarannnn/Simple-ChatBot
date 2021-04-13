@@ -36,6 +36,7 @@ public class SimpleBot {
 
     static void count() {
         System.out.println("Now I will prove to you that I can count to any number you want.");
+        System.out.print("Enter number of choice : ");
         int num = scanner.nextInt();
         for (int i = 0; i <= num; i++) {
             System.out.printf("%d!\n", i);
@@ -43,7 +44,6 @@ public class SimpleBot {
     }
 
     static void test() {
-        System.out.println("Let's test your programming knowledge.");
         System.out.println("Let's test your programming knowledge.");
         System.out.println("Why do we use methods?");
         System.out.println("1. To repeat a statement multiple times.");
@@ -63,6 +63,6 @@ public class SimpleBot {
      }
 
     static void end() {
-        System.out.println("Congratulations, have a nice day!");
+        System.out.println("Congratulations, have a nice day!\nEnding.....");
     }
 }
